@@ -1,4 +1,6 @@
 <h1>Products</h1>
+
+<h3><%= link_to "Add a new product", "/products/new" %></h3>
 <% @products.each do |product| %>
 	<p><%= product.name %>: <%= product.description %> - $ <%= product.formatted_price %></p>
 <% end %>
