@@ -1,4 +1,4 @@
-<h1>Users#new</h1>
+<h1>Sign up</h1>
 
 <%= form_for @user do |f| %>
 	<% if @user.errors.any? %>
@@ -11,6 +11,10 @@
 		</ul>
 		</div>
 	<% end %>
+	<div class="field">
+		<%= f.label :name %><br />
+		<%= f.text_field :name %><br />
+	</div>
 	<div class="field">
 		<%= f.label :email %><br />
 		<%= f.text_field :email %><br />
