@@ -9,8 +9,8 @@ Rails.application.routes.draw do
     resources :reviews, only: [:new, :create, :destroy]
   end
 
-  #### resources :users, :only => [:new, :create] #this can probably be formated like below
-  #### resources :sessions, only: [:new, :create, :destroy]
+  resources :users, :only => [:new, :create] #this can probably be formated like below
+  resources :sessions, only: [:new, :create, :destroy]
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
