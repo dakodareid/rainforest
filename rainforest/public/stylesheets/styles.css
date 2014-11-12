@@ -1,0 +1,19 @@
+@font-face {
+	font-family: Aller_Lt;
+	src: url('/Aller_Lt.ttf');
+}
+
+@font-face {
+	font-family: Montserrat-Regular;
+	src: url('/Montserrat-Regular.ttf');
+}
+
+html {
+	font-family: Aller_Lt;
+	text-align: center;
+}
+
+h1 {
+	font-family: Montserrat-Regular;
+	color: #343232;
+}
